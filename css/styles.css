@@ -375,17 +375,14 @@ body {
 .customers-link:hover,
 .customers-link:focus {
     border: 1px solid var(--ocean);
+    color: var(--ocean);
 }
-
 
 .customers-icon {
     fill: currentColor;
 }
 
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-    color: var(--ocean)
-}
+
 
 /* ====================== End Customers  ======================== */
 
