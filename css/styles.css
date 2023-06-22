@@ -146,6 +146,7 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid var(--cornflower);
+    box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 
 .flex-container {
@@ -235,7 +236,7 @@ body {
     max-width: 1440px;
     background-size: cover;
     margin: 0 auto;
-    background-color: var(--navy-blue);
+    background-position: center;
 }
 
 .hero-title {
@@ -354,6 +355,44 @@ body {
 
 /* ====================== End Team  =========================== */
 
+/* ====================== Start Customers  ======================== */
+.customers-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 88px;
+    border-radius: 4px;
+    border: 1px solid var(--light-slate);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+    border: 1px solid var(--ocean);
+}
+
+
+.customers-icon {
+    width: 104px;
+    height: 56px;
+    fill: var(--light-slate);
+}
+
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon {
+    fill: var(--ocean)
+}
+
+/* ====================== End Customers  ======================== */
+
+
 /* ====================== Start Footer  ====================== */
 .footer {
     background-color: var(--navy-blue);
@@ -407,42 +446,6 @@ body {
 
 /* ====================== End Footer  ======================== */
 
-/* ====================== Start Customers  ======================== */
-.customers-list {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-}
-
-.customers-link {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 168px;
-    height: 88px;
-    border-radius: 4px;
-    border: 1px solid var(--light-slate);
-}
-
-.customers-link:hover,
-.customers-link:focus {
-    border: 1px solid var(--ocean);
-}
-
-
-.customers-icon {
-    width: 104px;
-    height: 56px;
-    fill: var(--light-slate);
-}
-
-.customers-link:hover .customers-icon,
-.customers-link:focus .customers-icon {
-    fill: var(--ocean)
-}
-
-/* ====================== End Customers  ======================== */
 
 
 /* ======================= Start Portfolio =================== */
