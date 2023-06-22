@@ -134,8 +134,6 @@ body {
 }
 
 .social-icon {
-    width: 16px;
-    height: 16px;
     fill: var(--cloud)
 }
 
@@ -289,10 +287,7 @@ body {
     align-items: center;
 }
 
-.advantages-icon {
-    width: 64px;
-    height: 64px;
-}
+
 
 /* =======================  End Advantages  ================= */
 
@@ -348,7 +343,8 @@ body {
 .social-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 24px;
 }
 
 
@@ -359,7 +355,7 @@ body {
 .customers-list {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    gap: 24px;
 
 }
 
@@ -371,6 +367,7 @@ body {
     height: 88px;
     border-radius: 4px;
     border: 1px solid var(--light-slate);
+    color: var(--light-slate)
 }
 
 .customers-link:hover,
@@ -380,14 +377,12 @@ body {
 
 
 .customers-icon {
-    width: 104px;
-    height: 56px;
-    fill: var(--light-slate);
+    fill: currentColor;
 }
 
 .customers-link:hover .customers-icon,
 .customers-link:focus .customers-icon {
-    fill: var(--ocean)
+    color: var(--ocean)
 }
 
 /* ====================== End Customers  ======================== */
@@ -417,7 +412,7 @@ body {
 
 .footer-flex {
     display: flex;
-    align-items: flex-start;
+    align-items: baseline;
 }
 
 .footer-wrapper {
@@ -434,10 +429,6 @@ body {
     gap: 16px;
 }
 
-.footer-social-icon {
-    width: 24px;
-    height: 24px;
-}
 
 .footer-social-link:hover,
 .footer-social-link:focus {
@@ -483,8 +474,15 @@ body {
     width: calc((100% - 48px)/3);
 }
 
-.portfolio-item:hover {
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+.portfolio-link {
+    display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+        0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+        0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-item-content {
