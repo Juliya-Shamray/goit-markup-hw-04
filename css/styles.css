@@ -126,6 +126,7 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: var(--iris);
+    color: var(--cloud)
 }
 
 .social-link:hover,
@@ -133,8 +134,9 @@ body {
     background-color: var(--ocean);
 }
 
+
 .social-icon {
-    fill: var(--cloud)
+    fill: currentColor;
 }
 
 /* ===================== End Common components  ============= */
